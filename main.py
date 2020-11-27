@@ -68,7 +68,7 @@ def getNowTime():
 
 #打卡参数配置函数
 def getUserJson(userInfo,token):
-    #随机温度(36.2~36.8)
+    #随机温度(36.5~36.8)
     a=random.uniform(36.2,36.8)
     temperature = round(a, 1)
     return  {
